@@ -47,17 +47,7 @@
  "squishy": {
   "group": "bought",
   "col": "#8fcf73",
-  "note": "the team's cast squishy wheel (3.5 in, 6 ridges, 40 mm wide)"
- },
- "squishy_flange": {
-  "group": "print",
-  "col": "#f2c94c",
-  "note": "SQUISHY FLANGES (PETG, solid, 2 identical): REX bore, a boss into the wheel's bore, 3 x M3 x 50 through the wheel"
- },
- "squishy_screws": {
-  "group": "bought",
-  "col": "#8d939b",
-  "note": "3 x M3 x 50 socket heads + 3 x M3 nylocs"
+  "note": "the team's cast squishy wheel (3.5 in, 6 ridges, 40 mm wide): its cast-in hub's hex bore sits straight on the 8 mm REX shaft (the hex drives it), a goBILDA 2910 collar against each face"
  },
  "motor": {
   "group": "bought",
@@ -227,7 +217,7 @@
  "sq_collars_in": {
   "group": "bought",
   "col": "#b9bec5",
-  "note": "2 collars against the squishy flanges"
+  "note": "2 goBILDA 2910 collars against the squishy wheel's faces"
  },
  "sq_collars_out": {
   "group": "bought",

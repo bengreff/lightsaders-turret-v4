@@ -6,7 +6,6 @@ print (PETG HF),Angle pinion 33T,print/angle_pinion.stl,1,"layer 0.16 mm, solid"
 print (PETG HF),Squishy pulley GT2 76T,print/gt2_pulley.stl,1,"layer 0.16 mm, solid",0.98,29.7,1.02,30.3,print/H2D/gt2_pulley.gcode.3mf ; print/H2C/gt2_pulley.gcode.3mf
 print (PETG HF),Crank arm A (nyloc side),print/crank_arm_a.stl,1,"layer 0.20 mm, solid",0.3,3.9,0.29,4.0,print/H2D/crank_arm_a.gcode.3mf ; print/H2C/crank_arm_a.gcode.3mf
 print (PETG HF),Crank arm B (boss side),print/crank_arm_b.stl,1,"layer 0.20 mm, solid",0.58,4.5,0.58,4.6,print/H2D/crank_arm_b.gcode.3mf ; print/H2C/crank_arm_b.gcode.3mf
-print (PETG HF),"Squishy flange (x2, identical)",print/squishy_flange.stl,2,"layer 0.20 mm, solid",0.7,17.8,0.69,18.2,print/H2D/squishy_flange.gcode.3mf ; print/H2C/squishy_flange.gcode.3mf
 print (PETG HF),TEST: sector coupon,print/sector_coupon.stl,1,"layer 0.16 mm, solid",0.7,21.1,0.7,21.6,print/H2D/sector_coupon.gcode.3mf ; print/H2C/sector_coupon.gcode.3mf
 laser cut (1/4 in acetal),Plate A,plates/plate_a.dxf,1,276.2 x 174.5 mm,,,,,18 holes / slots
 laser cut (1/4 in acetal),Plate B,plates/plate_b.dxf,1,276.2 x 174.5 mm,,,,,10 holes / slots
@@ -55,7 +54,6 @@ hardware,M4 x 10 button head,,6,"Sonic Hub 4 (4), back tie 2 (10)",,,,,
 hardware,M4 x 25 thread-forming socket head,,16,steel discs to the Hogback (4),,,,,
 hardware,M4 x 8 set screw,,1,joins the 2 tie standoffs (10),,,,,
 hardware,M4 nyloc,,8,"hood servo ears 4 (2), angle servo ears 4 (6)",,,,,
-hardware,M3 x 50 socket head + M3 nyloc,,3 + 3,squishy flanges (5),,,,,
 hardware,"Zip ties, 2.5 mm",,3,"angle servo lead (6, 12)",,,,,
 hardware,"UHMW polyethylene tape, adhesive, about 0.1-0.3 mm",,1 roll,"ball bands + the rails the teeth ride on (wear), the seat shims (squeeze)",,,,,
 hardware,Dry PTFE lube,,1,T-slots and rails (no oil: it collects foam dust),,,,,
