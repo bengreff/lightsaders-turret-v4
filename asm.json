@@ -1,0 +1,237 @@
+{
+ "ring": {
+  "group": "print",
+  "col": "#4f9fb4",
+  "note": "The bore ring (full height, its top cut to clear the hood's sweep), the 2 NECTAR block teeth (lanes 1 and 3), 2 side ears and 2 back lugs. Each ear: 2 x M4 x 18 down into the 3208 gear, and 2 M4 nuts dropped into its 2 top slots for the plate's 2 x M4 x 20. The lugs and the NECTAR teeth take 4 more M4 only if those gear holes are tapped."
+ },
+ "plate_a": {
+  "group": "plywood",
+  "col": "#4a4e55",
+  "note": "PLATE A (1/4 in black acetal, laser cut): v3's back exactly (motor, squishy, tie, ears), the front reshaped round the moved flywheel, the hook slots (13.1), the crank's bearing and the toggle servo's window; motor face 4 x M4"
+ },
+ "plate_b": {
+  "group": "plywood",
+  "col": "#4a4e55",
+  "note": "PLATE B (1/4 in black acetal): the same outline, bearings and hook slots; 2 zip-tie holes for the angle servo's lead; no windows. The hook slots' round ends are the hood's seats: tape in them = more squeeze, a file = less"
+ },
+ "hogback": {
+  "group": "bought",
+  "col": "#3b3f45",
+  "note": "goBILDA 3626-0014-0096 Hogback 96 mm (the flywheel tread)"
+ },
+ "steel_discs": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "6 x goBILDA 3628-0032-0082 steel flywheel discs, 3 per side (as v3)"
+ },
+ "fly_hub": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "goBILDA 1309-0016-4008 Sonic Hub on the Hogback's web, 4 x M4 x 10 (as v3)"
+ },
+ "fly_screws": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "16 x M4 x 25 thread-forming socket heads through the discs into the Hogback (as v3)"
+ },
+ "fly_shaft": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "8 mm REX shaft, 182 mm (cut a goBILDA 2106)"
+ },
+ "sq_shaft": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "8 mm REX shaft, 181 mm"
+ },
+ "squishy": {
+  "group": "bought",
+  "col": "#8fcf73",
+  "note": "the team's cast squishy wheel (3.5 in, 6 ridges, 40 mm wide)"
+ },
+ "squishy_flange": {
+  "group": "print",
+  "col": "#f2c94c",
+  "note": "SQUISHY FLANGES (PETG, solid, 2 identical): REX bore, a boss into the wheel's bore, 3 x M3 x 50 through the wheel"
+ },
+ "squishy_screws": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "3 x M3 x 50 socket heads + 3 x M3 nylocs"
+ },
+ "motor": {
+  "group": "bought",
+  "col": "#3b3f45",
+  "note": "goBILDA 5203-2402-0001 Yellow Jacket 6000 rpm: its face on plate A only (4 x M4 x 14 button heads from outside, no motor cup), 82.5 mm from the flywheel"
+ },
+ "htd_pulleys": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "2 x goBILDA 3417-4008-0016 HTD 5M 16T pulleys (1:1) outside plate A (as v3)"
+ },
+ "htd_belt": {
+  "group": "bought",
+  "col": "#2b2b2b",
+  "note": "goBILDA 3412-0009-0245 HTD 5M belt, 9 wide, 245 mm (49T): exact at 82.5 mm centres"
+ },
+ "fly_spacers": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "2 x goBILDA 1522 spacers on the flywheel shaft (as v3)"
+ },
+ "gt2_20t": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "GT2 20T pulley, 8 mm REX (goBILDA 3422-4008-0020 or generic), outside plate B"
+ },
+ "gt2_pulley": {
+  "group": "print",
+  "col": "#f2c94c",
+  "note": "SQUISHY PULLEY (PETG): GT2 76T printed (1:3.80), REX bore, 2 flanges"
+ },
+ "gt2_belt": {
+  "group": "bought",
+  "col": "#2b2b2b",
+  "note": "goBILDA 3423-0006-0360 GT2 belt, 6 mm wide, 360 mm (180T): exact at the 130.78 mm centres"
+ },
+ "tie": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "BACK TIE behind the motor: goBILDA 1516-4008-1200 + 1516-4008-0120 standoffs (132 mm) + 2 x M4 x 10 (as v3, moved)"
+ },
+ "swivel": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "goBILDA 3208 gear-driven turret (105 bore); its gear's top face = the turret's base plane"
+ },
+ "crank_arms": {
+  "group": "print",
+  "col": "#f2c94c",
+  "note": "CRANK ARMS (PETG, solid, 2 prints): r 16, hex REX bores; B has a boss out to plate B's bearing; A (10 mm thick) has the knee bolt's M5 nyloc sunk in its outer face and sits against the 40T"
+ },
+ "gear_40t": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "goBILDA 2303-4008-0040 steel MOD 0.8 40T, 8 mm REX bore, on the crank shaft (teeth X 46.95-53.45, hub outboard)"
+ },
+ "knee_rod": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "KNEE: 10 x 1 mm aluminium tube 74.5 mm between the arms + M5 x 90 socket head (head on arm B) + M5 nyloc sunk in arm A"
+ },
+ "link": {
+  "group": "plywood",
+  "col": "#4a4e55",
+  "note": "LINK (laser-cut 1/4 in acetal, with the plates): 41.3 mm between pins (as v3)"
+ },
+ "toggle_pins": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "hood pin: ISO 7379 6 x 20 shoulder screw (M5) through the clevis + link, nyloc (as v3)"
+ },
+ "toggle_servo": {
+  "group": "bought",
+  "col": "#3b3f45",
+  "note": "hood servo: goBILDA 2000-0025-0002 (25-2 Torque) on plate A's inner face, body out through the window, 4 x M4 x 16 + nylocs"
+ },
+ "gear_24t": {
+  "group": "bought",
+  "col": "#c9a24a",
+  "note": "goBILDA 2305-0025-0024 brass MOD 0.8 24T straight on the hood servo's spline (its own screw)"
+ },
+ "servo_screws": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "4 x M4 x 16 button heads through the hood servo's ears + plate A, nylocs outside"
+ },
+ "hood": {
+  "group": "print",
+  "col": "#f2c94c",
+  "note": "HOOD (PETG, one print): the 3 fixed teeth (lanes 0, 2 and 4) with their entry curves, the webs and the bridge, 2 arc rails with T-slots for the moving teeth, the angle servo's fin, 2 cheeks with 4 roller bosses, the link clevis and a zip-tie block."
+ },
+ "hood_teeth": {
+  "group": "print",
+  "col": "#ee8c55",
+  "note": "MOVING TEETH (PETG, one print): the 2 moving tips (lanes 1 and 3), each with a T-head on its back that slides in the hood's rails, the lead-out bar across all 5 lanes, and the herringbone sector (MOD 1, 286T pitch, 30 deg helix) with its end stops. It swings +-14.5 deg about the hood's pivot."
+ },
+ "angle_servo": {
+  "group": "bought",
+  "col": "#3b3f45",
+  "note": "exit-angle servo (goBILDA 2000-0025-0003 Speed) on the hood's fin; 33T pinion to the sector 8.67:1: 29 deg of exit = 251 deg of servo"
+ },
+ "angle_hub": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "goBILDA 1906-0025-0032 servo hub; the pinion's 4 x M4 x 12 go into its tapped pattern"
+ },
+ "angle_pinion": {
+  "group": "print",
+  "col": "#f2c94c",
+  "note": "ANGLE PINION (PETG, solid): 33T MOD 1.0 herringbone, 30 deg helix, 8.4 mm thick, 14 mm bore on the 1906 hub's boss, 4 x M4 x 12 button heads into the hub, no washers"
+ },
+ "angle_screws": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "4 x M4 x 20 button heads through the angle servo's ears + the fin, nylocs"
+ },
+ "ring_screws": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "ring -> 3208 gear: 4 x M4 x 18 socket heads (+ 2 x M4 x 16 at the back lugs, 2 x M4 x 8 in the front holes, only if tapped)"
+ },
+ "ear_screws_a": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "plate A -> the ring ear's 2 nuts: 2 x M4 x 20 socket heads"
+ },
+ "bearings_a": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "3 x goBILDA 1611 in plate A (flywheel, squishy, crank shaft), flange on the OUTER face"
+ },
+ "rails_a": {
+  "group": "bought",
+  "col": "#3b3f45",
+  "note": "plate A's 2 hood rollers: F686ZZ + ISO 7379 6 x 10 shoulder screw + washer + shims (locates the hood)"
+ },
+ "ear_screws_b": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "plate B -> the ring ear's 2 nuts: 2 x M4 x 20 socket heads"
+ },
+ "bearings_b": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "3 x goBILDA 1611 in plate B (flywheel, squishy, crank shaft), flange on the OUTER face"
+ },
+ "rails_b": {
+  "group": "bought",
+  "col": "#3b3f45",
+  "note": "plate B's 2 hood rollers: F686ZZ + ISO 7379 6 x 10 shoulder screw + washer (floats)"
+ },
+ "motor_screws": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "motor face: 4 x M4 button heads from outside plate A"
+ },
+ "crank_shaft": {
+  "group": "bought",
+  "col": "#8d939b",
+  "note": "THE FRONT TIE: one 8 mm REX shaft (157 mm) in a 1611 in each plate, a collar outside plate B; the 40T's 2 set screws locate it. Between the 40T's hub and plate A's bearing: goBILDA 1522-0010-0080 (8 mm) + 2807-0811-0250 shim (0.25 mm)"
+ },
+ "crank_spacer": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "between the 40T's hub and plate A's bearing: goBILDA 1522-0010-0080 (8 mm) + 2807-0811-0250 shim (0.25) = 8.25 mm"
+ },
+ "sq_collars_in": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "2 collars against the squishy flanges"
+ },
+ "sq_collars_out": {
+  "group": "bought",
+  "col": "#b9bec5",
+  "note": "2 collars: outside plate A, outside the GT2 pulley"
+ }
+}

@@ -1,0 +1,62 @@
+section,item,SKU / file,qty,step / where,H2D time h,H2D g,H2C time h,H2C g,link / notes
+print (PETG HF),Hood,print/hood.stl,1,layer 0.16 mm,13.56,309.4,13.69,315.9,print/H2D/hood.gcode.3mf ; print/H2C/hood.gcode.3mf
+print (PETG HF),Moving teeth,print/hood_teeth.stl,1,layer 0.16 mm,7.11,145.9,7.14,149.0,print/H2D/hood_teeth.gcode.3mf ; print/H2C/hood_teeth.gcode.3mf
+print (PETG HF),Bore ring + NECTAR teeth,print/ring.stl,1,layer 0.16 mm,3.52,79.6,3.53,81.3,print/H2D/ring.gcode.3mf ; print/H2C/ring.gcode.3mf
+print (PETG HF),Angle pinion 33T,print/angle_pinion.stl,1,"layer 0.16 mm, solid",0.59,6.3,0.59,6.4,print/H2D/angle_pinion.gcode.3mf ; print/H2C/angle_pinion.gcode.3mf
+print (PETG HF),Squishy pulley GT2 76T,print/gt2_pulley.stl,1,"layer 0.16 mm, solid",0.98,29.7,1.02,30.3,print/H2D/gt2_pulley.gcode.3mf ; print/H2C/gt2_pulley.gcode.3mf
+print (PETG HF),Crank arm A (nyloc side),print/crank_arm_a.stl,1,"layer 0.20 mm, solid",0.3,3.9,0.29,4.0,print/H2D/crank_arm_a.gcode.3mf ; print/H2C/crank_arm_a.gcode.3mf
+print (PETG HF),Crank arm B (boss side),print/crank_arm_b.stl,1,"layer 0.20 mm, solid",0.58,4.5,0.58,4.6,print/H2D/crank_arm_b.gcode.3mf ; print/H2C/crank_arm_b.gcode.3mf
+print (PETG HF),"Squishy flange (x2, identical)",print/squishy_flange.stl,2,"layer 0.20 mm, solid",0.7,17.8,0.69,18.2,print/H2D/squishy_flange.gcode.3mf ; print/H2C/squishy_flange.gcode.3mf
+print (PETG HF),TEST: sector coupon,print/sector_coupon.stl,1,"layer 0.16 mm, solid",0.7,21.1,0.7,21.6,print/H2D/sector_coupon.gcode.3mf ; print/H2C/sector_coupon.gcode.3mf
+laser cut (1/4 in acetal),Plate A,plates/plate_a.dxf,1,276.2 x 174.5 mm,,,,,18 holes / slots
+laser cut (1/4 in acetal),Plate B,plates/plate_b.dxf,1,276.2 x 174.5 mm,,,,,10 holes / slots
+laser cut (1/4 in acetal),Link (toggle),plates/link.dxf,1,57.2 x 19.7 mm,,,,,2 holes / slots
+laser cut (1/4 in acetal),Test coupon (cut first),plates/coupon.dxf,1,150 x 60 mm,,,,,8 holes / slots
+goBILDA,"Gear-Driven Turret (2.75:1, 105 mm ID, 64T gear)",3208-0004-0001,1,1,,,,,https://www.gobilda.com/gear-driven-turret-2-75-1-ratio-105mm-id/
+goBILDA,"Yellow Jacket motor, 6000 rpm, 8 mm REX shaft",5203-2402-0001,1,2,,,,,https://www.gobilda.com/5203-series-yellow-jacket-motor-1-1-ratio-24mm-length-8mm-rex-shaft-6000-rpm-3-3-5v-encoder/
+goBILDA,Dual Mode Servo 25-2 Torque (hood toggle),2000-0025-0002,1,2,,,,,https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/
+goBILDA,Dual Mode Servo 25-3 Speed (exit angle),2000-0025-0003,1,6,,,,,https://www.gobilda.com/2000-series-dual-mode-servo-25-3-speed/
+goBILDA,"Brass MOD 0.8 servo gear, 25T spline, 24 teeth (hood servo)",2305-0025-0024,1,2,,,,,https://www.gobilda.com/2305-series-brass-mod-0-8-servo-gear-25-tooth-spline-24-tooth/
+goBILDA,"Steel MOD 0.8 pinion gear, 8 mm REX bore, 40 teeth (crank shaft)",2303-4008-0040,1,9,,,,,https://www.gobilda.com/2303-series-steel-mod-0-8-pinion-gear-8mm-rex-bore-40-tooth/
+goBILDA,"Servo hub, 25T spline, 32 mm (angle pinion)",1906-0025-0032,1,6,,,,,https://www.gobilda.com/1906-series-lightweight-servo-hub-25-tooth-spline-32mm-diameter/
+goBILDA,Flanged ball bearing 8 mm REX x 14 mm (2-pack),1611-0514-4008,3 packs (6),"2, 3",,,,,https://www.gobilda.com/1611-series-flanged-ball-bearing-8mm-rex-id-x-14mm-od-5mm-thickness-2-pack/
+goBILDA,Hogback traction wheel 96 mm,3626-0014-0096,1,4,,,,,https://www.gobilda.com/hogback-traction-wheel-96mm-diameter-50a-durometer/
+goBILDA,Steel flywheel disc 82 mm,3628-0032-0082,6,4,,,,,https://www.gobilda.com/steel-flywheel-82mm-diameter-152g-1651-g-cm/
+goBILDA,"Sonic Hub, 8 mm REX bore",1309-0016-4008,1,4,,,,,https://www.gobilda.com/1309-series-sonic-hub-8mm-rex-bore/
+goBILDA,"8 mm REX shaft 192 mm, cut to 182 / 181 / 157 mm",2106-4008-1920,3,"4, 5, 9",,,,,https://www.gobilda.com/8mm-rex-shaft-with-e-clip-stainless-steel-192mm-length/
+goBILDA,Clamping collar 8 mm REX,2910-0920-4008,5,"5, 11",,,,,https://www.gobilda.com/2910-series-aluminum-clamping-collar-8mm-rex-id-x-20mm-od-9mm-length/
+goBILDA,"Spacer 8 mm ID x 10 mm OD x 8 mm, steel (4-pack): the crank shaft's spacer stack",1522-0010-0080,1 used,9,,,,,https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-8mm-length-4-pack/
+goBILDA,"Shim 8 mm ID x 11 mm OD x 0.25 mm, stainless (12-pack): the stack's shim + spares",2807-0811-0250,1 used,9,,,,,https://www.gobilda.com/2807-series-stainless-steel-shim-8mm-id-x-11mm-od-0-25mm-thickness-12-pack/
+goBILDA,"Spacer 8 mm ID x 10 mm OD x 3 mm, steel (4-pack)",1522-0010-0030,2 used,11,,,,,https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-3mm-length-4-pack/
+goBILDA,"HTD 5 mm pitch 16T pulley, 8 mm REX",3417-4008-0016,2,11,,,,,https://www.gobilda.com/3417-series-5mm-htd-pitch-set-screw-pinion-timing-belt-pulley-8mm-rex-bore-16-tooth/
+goBILDA,"HTD 5 mm belt, 9 mm wide, 245 mm (49T)",3412-0009-0245,1,11,,,,,https://www.gobilda.com/3412-series-5mm-htd-pitch-timing-belt-9mm-width-245mm-pitch-length-49-tooth/
+goBILDA,"GT2 20T pinion pulley, 8 mm REX (6 mm belt)",3422-4008-0020,1,11,,,,,https://www.gobilda.com/2mm-pitch-gt2-pinion-timing-pulley-8mm-rex-bore-20-tooth/
+goBILDA,"GT2 belt, 6 mm wide, 360 mm (180T)",3423-0006-0360,1,11,,,,,https://www.gobilda.com/2mm-pitch-gt2-timing-belt-6mm-width-360mm-pitch-length-180-tooth/
+goBILDA,"8 mm REX standoff 120 mm, M4 (back tie)",1516-4008-1200,1,10,,,,,https://www.gobilda.com/1516-series-8mm-rex-standoff-m4-x-0-7mm-threads-120mm-length-4-pack/
+goBILDA,"8 mm REX standoff 12 mm, M4 (back tie)",1516-4008-0120,1,10,,,,,https://www.gobilda.com/1516-series-8mm-rex-standoff-m4-x-0-7mm-threads-12mm-length-4-pack/
+hardware,F686ZZ flanged bearing 6 x 13 x 5 (flange 15 x 1.1),,4,"hood rollers (8, 10)",,,,,
+hardware,"ISO 7379 shoulder screw 6 x 10, M5",,4,"hood rollers (8, 10)",,,,,
+hardware,"ISO 7379 shoulder screw 6 x 20, M5 + DIN 125 6.4 washer",,1 + 1,link to the hood (9),,,,,
+hardware,"Washer M5, 18 mm OD + DIN 988 6 x 12 shim rings (a few)",,2 + set,plate A rollers (8),,,,,
+hardware,"Washer M5, 12 mm OD",,2,plate B rollers (10),,,,,
+hardware,"Aluminium tube 10 mm OD x 1 mm wall, cut 74.5 mm",,1,the knee (7),,,,,
+hardware,M5 x 90 socket head,,1,the knee (7),,,,,
+hardware,M5 nyloc,,6,"roller bosses 4 (6), hood pin 1 (9), knee 1 (7)",,,,,
+hardware,M4 hex nut,,4,dropped into the ring ears' slots (1),,,,,
+hardware,M4 x 18 socket head,,4,ring to the 3208 gear (1),,,,,
+hardware,M4 x 16 socket head,,2,"ring back lugs, only if those gear holes are tapped (1)",,,,,
+hardware,M4 x 8 button head,,2,"ring front holes inside the NECTAR teeth, only if tapped (1)",,,,,
+hardware,M4 x 20 socket head,,4,"plates to the ring ears' nuts (8, 10)",,,,,
+hardware,M4 x 14 button head,,4,motor face (2),,,,,
+hardware,M4 x 16 button head,,4,"hood servo ears, nylocs outside (2)",,,,,
+hardware,M4 x 20 button head,,4,angle servo ears through the hood's fin (6),,,,,
+hardware,"M4 x 12 button head (ISO 7380), no washer",,4,angle pinion to the 1906 hub (6),,,,,
+hardware,M4 x 10 button head,,6,"Sonic Hub 4 (4), back tie 2 (10)",,,,,
+hardware,M4 x 25 thread-forming socket head,,16,steel discs to the Hogback (4),,,,,
+hardware,M4 x 8 set screw,,1,joins the 2 tie standoffs (10),,,,,
+hardware,M4 nyloc,,8,"hood servo ears 4 (2), angle servo ears 4 (6)",,,,,
+hardware,M3 x 50 socket head + M3 nyloc,,3 + 3,squishy flanges (5),,,,,
+hardware,"Zip ties, 2.5 mm",,3,"angle servo lead (6, 12)",,,,,
+hardware,"UHMW polyethylene tape, adhesive, about 0.1-0.3 mm",,1 roll,"ball bands + the rails the teeth ride on (wear), the seat shims (squeeze)",,,,,
+hardware,Dry PTFE lube,,1,T-slots and rails (no oil: it collects foam dust),,,,,
+hardware,PLA or Bambu 'Support For PLA-PETG' filament,,a little,"support contact layers on the 3 supported prints (second nozzle, see Wear)",,,,,
